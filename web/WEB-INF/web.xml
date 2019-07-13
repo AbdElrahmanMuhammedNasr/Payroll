@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>main2</servlet-name>
+        <servlet-class>main2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mainservlt</servlet-name>
+        <servlet-class>mainservlt</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>report</servlet-name>
+        <servlet-class>report</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>report2</servlet-name>
+        <servlet-class>report2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>main2</servlet-name>
+        <url-pattern>/main2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mainservlt</servlet-name>
+        <url-pattern>/mainservlt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>report</servlet-name>
+        <url-pattern>/report</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>report2</servlet-name>
+        <url-pattern>/report2</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
